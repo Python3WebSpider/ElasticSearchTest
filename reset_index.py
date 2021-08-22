@@ -12,4 +12,4 @@ mapping = {
 }
 es.indices.delete(index='news', ignore=[400, 404])
 es.indices.create(index='news', ignore=400)
-es.indices.put_mapping(index='news', doc_type='politics', body=mapping)
+es.indices.put_mapping(index='news', body=mapping)

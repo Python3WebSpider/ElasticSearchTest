@@ -4,15 +4,16 @@ import json
 dsl = {
     'query': {
         'match': {
-            'title': '中国领事馆'
+            'title': '古都 传奇'
         }
     }
 }
 
 es = Elasticsearch()
-result = es.search(index='news', doc_type='politics', body=dsl)
-print(json.dumps(result, indent=2, ensure_ascii=False))
-
-result = es.search(index='news', doc_type='politics')
+result = es.search(index='news', body=dsl)
+# print(json.dumps(result, indent=2, ensure_ascii=False))
 print(result)
-print(json.dumps(result, indent=2, ensure_ascii=False))
+
+# result = es.search(index='news')
+# print(result)
+# print(json.dumps(result, indent=2, ensure_ascii=False))

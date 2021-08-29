@@ -4,12 +4,12 @@ es = Elasticsearch()
 
 datas = [
     {
-        'title': '华夏古都迎传奇夜宴，高端白酒说世纪传奇',
-        'url': 'http://view.inews.qq.com/a/AJB2021070500487700',
+        'title': '高考结局大不同',
+        'url': 'https://k.sina.com.cn/article_7571064628_1c3454734001011lz9.html',
     },
     {
-        'title': '八大古都，一省就占四个，你肯定知道是哪个省',
-        'url': 'https://k.sina.com.cn/article_7522021850_1c058f1da00100z16a.html',
+        'title': '进入职业大洗牌时代，“吃香”职业还吃香吗？',
+        'url': 'https://new.qq.com/omn/20210828/20210828A025LK00.html',
     },
     {
         'title': '乘风破浪不负韶华，奋斗青春圆梦高考',
